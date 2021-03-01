@@ -45,9 +45,10 @@ print (len(classes), "classes", classes)
 print (len(words), "unique lemmatized words", words)
 
 
-pickle.dump(words,open('words.pkl','wb'))
+pickle.dump(words,open('words.pkl','wb
+pickle.dump(words,open('words.txt','wb'))                       
 pickle.dump(classes,open('classes.pkl','wb'))
-
+git commit -m "Linea Agregada"
 # initializing training data
 training = []
 output_empty = [0] * len(classes)
